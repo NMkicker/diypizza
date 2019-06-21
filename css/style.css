@@ -1,0 +1,92 @@
+#header{
+  border: 5px solid;
+  text-align: center;
+}
+
+/* toppings div  */
+#options{
+  text-align: center;
+  height:100vh;
+
+}
+
+/* topping buttons */
+#toppings {
+  text-align: left;
+  height: 100%;
+}
+
+/* pizza image and sizes */
+#pizza {
+  text-align: center;
+}
+
+
+/*toppings images*/
+#pepperoniImage {
+  position:absolute;
+  z-index: 1;
+  margin-left: 210px
+}
+#oliveImage{
+  position:absolute;
+  z-index: 2;
+  margin-left: 210px
+
+}
+#mushroomImage{
+  position:absolute;
+  z-index: 3;
+  margin-left: 210px
+
+}
+#sausageImage{
+  position:absolute;
+  z-index: 4;
+  margin-left: 210px
+}
+#bananapepperImage{
+  position:absolute;
+  z-index: 5;
+  margin-left: 210px
+}
+
+topping {
+height:350px;
+}
+
+
+#pizza-image {
+  position:absolute;
+  z-index: 0;
+}
+
+.builder-container {
+  position:relative;
+  top:100px;
+  right:180px;
+}
+
+#masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("https://i.imgur.com/lIzUk1X.png"); */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.imgur.com/lIzUk1X.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+  background-color:red;
+}
